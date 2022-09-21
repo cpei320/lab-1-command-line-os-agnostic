@@ -15,6 +15,10 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -25,20 +29,23 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 $ ls D<TAB>
 
 What happens?  Describe it below.
-----------
+It gives three options of Desktop Documents and Downloads
 Desktop/    Documents/  Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
-----------
+ls Desktop/  
 rdrgeerwtger yg erwy brg
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+Desktop:
+Screen Shot 2022-09-14 at 6.35.28 PM.png
+Screen Shot 2022-09-14 at 6.35.38 PM.png
+Spring 2022 Syllabus
 
 
 ==========
@@ -48,7 +55,7 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+Documents - Pei’s MacBook Pro	Module 2 Abortions.docx
 
 
 ==========
@@ -58,7 +65,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+League of Legends
+MOD2 COMAS.docx
 
 
 ==========
@@ -68,7 +76,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a documents
 
 
 ==========
@@ -78,7 +86,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+The ls -a documents command
 
 
 ==========
@@ -88,7 +96,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+It gives a list of all the commands
 
 
 ==========
@@ -98,37 +106,37 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+UP Key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-a and -l
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+documents
 
 
 ==========
@@ -138,7 +146,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+command not found: foo
 
 
 ==========
@@ -148,7 +156,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+command not found: foo
 
 
 ==========
@@ -158,3 +166,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+$ is the prompt 
+ls is the command
+-a is the flag 
+desktop is the argument
