@@ -29,7 +29,9 @@ Check that the output ends with mtec1002 (something like this: /Users/[yourname]
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
-----------
+/Users/peichen/mtec1003
+
+
 
 
 
@@ -41,7 +43,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+mkdir: animals: File exists
+peichen@Peis-MacBook-Pro mtec1003 % ls
+animals	ls
+peichen@Peis-MacBook-Pro mtec1003 % 
 
 
 ==========
@@ -52,6 +57,9 @@ $ ls
 
 Copy and paste the output below.
 ----------
+peichen@Peis-MacBook-Pro mtec1003 % mkdir food   
+peichen@Peis-MacBook-Pro mtec1003 % ls
+animals	food	ls
 
 
 
@@ -62,7 +70,9 @@ $ mkdir -p foo/bar/baz/qux
 $ ls
 
 Copy and paste the output below.
-----------
+peichen@Peis-MacBook-Pro mtec1003 % mkdir -p foo/bar/baz/qux
+peichen@Peis-MacBook-Pro mtec1003 % ls
+animals	foo	food	ls
 
 
 
@@ -74,7 +84,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/peichen/mtec1003/foo/bar/baz/qux
 
 
 ==========
@@ -84,7 +94,7 @@ $ cd ../..
 $ pwd
 
 Copy and paste the output below.
-----------
+/Users/peichen/mtec1003/foo/bar
 
 
 
@@ -95,7 +105,7 @@ $ cd -
 $ pwd
 
 Copy and paste the output below.
-----------
+/Users/peichen
 
 
  
@@ -106,7 +116,7 @@ $ cd ../../../..
 $ pwd
 
 Copy and paste the output below.
-----------
+peichen@Peis-MacBook-Pro / % 
 
 
 
@@ -118,7 +128,8 @@ $ rmdir animals
 $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
-----------
+Applications
+Library
 
 
 
@@ -129,7 +140,7 @@ $ cd ~
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+/Users/peichen
 
 
 
@@ -141,7 +152,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/peichen
 
 
 ==========
@@ -151,7 +162,7 @@ $ cd /unknown_folder
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+/Users/peichen
 
 
 
@@ -162,13 +173,13 @@ $ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+/Users/peichen/mtec1003
 
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
-----------
+pwd
 
 
 
@@ -192,7 +203,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+-p
 
 
 ==========
@@ -200,15 +211,14 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
 19. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
-----------
-
+No such file or directory
 
 
 ==========
@@ -219,7 +229,7 @@ What is the modified date of the aardvark directory?
 * baz should be inside bar
 
 What command did you use?
-----------
+mkdir -p
 
 
 
@@ -227,7 +237,7 @@ What command did you use?
 21. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
-----------
+cd
 
 
 
@@ -235,45 +245,45 @@ What command did you use?
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
-----------
+ls
 
 
 ==========
 23. What command is used to delete empty directories?
-----------
 
 
+rmdir
 
 ==========
 24. What command is used to print out your current working directory?
-----------
+pwd
 
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
-----------
+-l
 
 
 
 ==========
 26. What's the shortcut for home directory?
-----------
+cd
 
 
 
 ==========
 27. What's a pathname?
-----------
+a specific label for a file's directory location while within an operating system.
 
 
 
 ==========
 28. What's a directory?
-----------
+this is synonymous with folder this a construct the filesystem uses to organize files. When you access a folder you're accessing a directory.
 
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
-----------
+/home/professor/Desktop the root in this case being the initial 
